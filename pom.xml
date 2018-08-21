@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.mobi.prevoyance</groupId>
-    <artifactId>presentation-starter</artifactId>
+    <artifactId>bdd_tdd-presentation</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -25,41 +25,6 @@
     <build>
         <defaultGoal>process-resources</defaultGoal>
         <plugins>
-            <!--<plugin>-->
-            <!--<groupId>com.googlecode.maven-download-plugin</groupId>-->
-            <!--<artifactId>download-maven-plugin</artifactId>-->
-            <!--<version>1.4.1</version>-->
-            <!--<executions>-->
-            <!--<execution>-->
-            <!--<id>install-asciidoctor-revealjs</id>-->
-            <!--<phase>generate-resources</phase>-->
-            <!--<goals>-->
-            <!--<goal>wget</goal>-->
-            <!--</goals>-->
-            <!--<configuration>-->
-            <!--<url>-->
-            <!--https://github.com/asciidoctor/asciidoctor-reveal.js/archive/v${asciidoctor-revealjs.version}.zip-->
-            <!--</url>-->
-            <!--<unpack>true</unpack>-->
-            <!--<outputFileName>asciidoctor-reveal.js-${asciidoctor-revealjs.version}.zip</outputFileName>-->
-            <!--<outputDirectory>${project.build.directory}</outputDirectory>-->
-            <!--</configuration>-->
-            <!--</execution>-->
-            <!--<execution>-->
-            <!--<id>install-revealjs</id>-->
-            <!--<phase>generate-resources</phase>-->
-            <!--<goals>-->
-            <!--<goal>wget</goal>-->
-            <!--</goals>-->
-            <!--<configuration>-->
-            <!--<url>https://github.com/hakimel/reveal.js/archive/${revealjs.version}.zip</url>-->
-            <!--<unpack>true</unpack>-->
-            <!--<outputFileName>reveal.js-${revealjs.version}.zip</outputFileName>-->
-            <!--<outputDirectory>${project.slides.directory}</outputDirectory>-->
-            <!--</configuration>-->
-            <!--</execution>-->
-            <!--</executions>-->
-            <!--</plugin>-->
             <plugin>
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
@@ -207,5 +172,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

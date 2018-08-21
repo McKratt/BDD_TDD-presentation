@@ -1,12 +1,83 @@
-= Titre de la présentation
+= BDD / TDD par l'exemple
 :title-slide-background-image: titleBackgroundWithLogo.png
 :revealjs_customtheme: reveal.js/css/theme/mobiliere.css
 :highlightjs-theme: theme/dracula.css
 :icons: font
 :revealjs_center: false
-:talk-name: Tire de la présentation
-:talk-date: Date de la présentation
+:talk-name: BDD / TDD par l'exemple
+:talk-date: 18.09.2018
 :linkattrs:
 :imagesdir: images
 
 include::footer.ad[]
+
+== Programme
+
+* Pourquoi faire du TDD
+* Double boucle de test
+* Discussion
+* Pratique : Message receiver
+
+== Pourquoi faire du TDD
+
+*+*
+
+[%step]
+* Permet d'avoir des feedbacks rapides
+* Permet de minimiser les _defects_
+* Permet d'avoir tout de suite des tests de non régressions
+* Les tests deviennent une sorte de _living documentation_
+* A moyen terme, accélère les développement
+
+*-*
+
+[%step]
+* Prend un peu de temps à apprendre (moyen terme)
+* Les tests doivent être maintenus (donc une bonne chose de les refactorer quand nécessaire)
+
+
+== Double boucle
+
+* Commencez avec la boucle BDD
+* Complétez la avec la boucle TDD
+
+[.float-group]
+--
+image:doubleLoop.png[loop,width="900px"]
+--
+
+=== Boucle BDD
+
+[%step]
+* Ecrire une _step definition_
+* La faire compiler
+* La faire fonctionner (c'est là qu'intervient la boucle TDD)
+* Ecrire la _step definition_ suivante
+
+=== Boucle TDD
+
+[%step]
+* Ecrire un _test case_
+* Le faire compiler
+* Faire passer le test
+* Refactorer / Eliminer duplication (SOLID !!)
+* Ecrire le prochain _test case_
+
+
+[state=subtitle]
+== Discussion
+
+== Let's Code
+
+https://github.com/McKratt/solid-refactoring-example/tree/BDD/TDD_start
+
+== Références
+
+https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293/ref=sr_1_fkmr0_1?ie=UTF8&qid=1527126438&sr=8-1-fkmr0&keywords=bed+cucumber+for+java[Book from Seb Rose, Matt Wynne & Aslak Hellesoy, "The Cucumber for Java Book: Behaviour-Driven Development for Testers and Developers"]
+
+https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/ref=sr_1_1?s=books&ie=UTF8&qid=1527126546&sr=1-1&keywords=growing+software[Book from Steve Freeman & Nat Pryce, "Growing Object-Oriented Software, Guided by Tests"]
+
+
+link:https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/ref=sr_1_2?s=books&ie=UTF8&qid=1527126620&sr=1-2&keywords=tdd+by+example&dpID=51kDbV%252BN65L&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch[Book from Kent Beck, "Test Driven Development by example"]
+
+
