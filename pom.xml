@@ -159,7 +159,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>presentation</outputDirectory>
+                            <outputDirectory>docs</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.slides.directory}</directory>
