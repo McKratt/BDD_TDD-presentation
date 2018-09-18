@@ -485,4 +485,9 @@ div.title {
   margin: auto;
 }
 
+.reveal blockquote {
+  margin-left: 0px;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=mobiliere.css.map */

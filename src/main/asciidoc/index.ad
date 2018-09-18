@@ -63,6 +63,22 @@ image:doubleLoop.png[loop,width="900px"]
 * Refactorer / Eliminer duplication (SOLID !!)
 * Ecrire le prochain _test case_
 
+=== KISS
+
+_**K**eep **I**t **S**imple and **S**tupid_
+
+* N'écrire que ce qui est strictement nécessaire dans le test, rien d'autre
+
+
+[quote, Founder of Xtreme Programming, Ron Jeffries]
+--
+"`Always implement things when you actually need them, never when you just foresee that you need them.`"
+--
+
+[quote, Economist and Nobel prize laureate,Paul Krugman]
+--
+"`Simple doesn’t mean stupid. Thinking that it does, does.`"
+--
 
 [state=subtitle]
 == Discussion
@@ -71,6 +87,14 @@ image:doubleLoop.png[loop,width="900px"]
 
 https://github.com/McKratt/solid-refactoring-example/tree/BDD/TDD_start
 
+=== Règles du Mob Programming
+
+* 7 minutes par conducteur, les autres jouent les navigateurs
+* Le conducteur n'écrit que ce que les navigateurs lui demandent, pas d'initiative personnelle ou les navigateurs ne pourront plus suivre.
+* Si personne ne parle pendant les 7 minutes, le conducteur repart pour 7 minutes supplémentaires
+* Si quelqu'un ne fait que parler, il devient de suite le conducteur.
+* Tout le monde participe
+
 == Références
 
 https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293/ref=sr_1_fkmr0_1?ie=UTF8&qid=1527126438&sr=8-1-fkmr0&keywords=bed+cucumber+for+java[Book from Seb Rose, Matt Wynne & Aslak Hellesoy, "The Cucumber for Java Book: Behaviour-Driven Development for Testers and Developers"]
@@ -78,6 +102,6 @@ https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/194122
 https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/ref=sr_1_1?s=books&ie=UTF8&qid=1527126546&sr=1-1&keywords=growing+software[Book from Steve Freeman & Nat Pryce, "Growing Object-Oriented Software, Guided by Tests"]
 
 
-link:++https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/ref=sr_1_2?s=books&ie=UTF8&qid=1527126620&sr=1-2&keywords=tdd+by+example&dpID=51kDbV%252BN65L&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch++[Book from Kent Beck, "Test Driven Development by example"]
+https://www.amazon.fr/Test-Driven-Development-Kent-Beck/dp/0321146530[Book from Kent Beck, "Test Driven Development by example"]
 
 
