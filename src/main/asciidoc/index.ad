@@ -89,6 +89,7 @@ https://github.com/McKratt/solid-refactoring-example/tree/BDD/TDD_start
 
 === Règles du Mob Programming
 
+[%step]
 * 7 minutes par conducteur, les autres jouent les navigateurs
 * Le conducteur n'écrit que ce que les navigateurs lui demandent, pas d'initiative personnelle ou les navigateurs ne pourront plus suivre.
 * Si personne ne parle pendant les 7 minutes, le conducteur repart pour 7 minutes supplémentaires
